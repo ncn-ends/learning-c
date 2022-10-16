@@ -1,3 +1,4 @@
 #!/bin/bash
 
-cc chapters/4-arrays.c && ./a.out
+last_edited_file=`ls ./concepts -Art | tail -n 1`
+cc concepts/${last_edited_file} && ./a.out
