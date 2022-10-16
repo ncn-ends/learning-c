@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cc chapters/one-three.c && ./a.out
+cc chapters/4-arrays.c && ./a.out
